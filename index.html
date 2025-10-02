@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tudor Constantin - Desarrollador WordPress especializado en plugins PHP y desarrollo web a medida">
+    <meta name="keywords" content="WordPress, PHP, desarrollo web, plugins, Tudor Constantin">
+    <meta name="author" content="Tudor Constantin">
+    
+    <title>Tudor Constantin - Desarrollador WordPress & PHP a medida</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+    <!-- Skip to services content for accessibility -->
+    <a href="#services" class="skip-link" aria-label="Saltar al contenido principal">Saltar al contenido</a>
+    
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Cambiar a tema oscuro" title="Cambiar tema (Alt + T)">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+        <i class="fas fa-sun" aria-hidden="true"></i>
+    </button>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Inicio">
+                <span class="logo-text">TC</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#home" class="nav-link" role="menuitem">Inicio</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">Sobre mí</a></li>
+                <li role="none"><a href="#services" class="nav-link" role="menuitem">Servicios</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Proyectos</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        <span class="greeting">Hola, soy</span>
+                        <span class="name">Tudor Constantin</span>
+                        <span class="title">Desarrollador WordPress & PHP</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Especializado en crear soluciones web robustas con WordPress, 
+                        desarrollo de plugins personalizados en PHP y experiencias digitales excepcionales.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="mailto:tudoreusebiu4@gmail.com" class="btn btn-primary" aria-describedby="contact-desc">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            Trabajemos juntos
+                        </a>
+                        <a href="#projects" class="btn btn-secondary" aria-describedby="projects-desc">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            Ver proyectos
+                        </a>
+                    </div>
+                    
+                    <!-- Hidden descriptions for screen readers -->
+                    <span id="contact-desc" class="sr-only">Ir a la sección de contacto</span>
+                    <span id="projects-desc" class="sr-only">Ver mis proyectos destacados</span>
+                    
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/tudor-eusebiu-constantin/" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="social-link"
+                           aria-label="Perfil de LinkedIn de Tudor Constantin">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/tudor-constantin" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="social-link"
+                           aria-label="Perfil de GitHub de Tudor Constantin">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://profiles.wordpress.org/tud0r/" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="social-link"
+                           aria-label="Perfil de WordPress de Tudor Constantin">
+                            <i class="fab fa-wordpress" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="code-title">Experiencia en números</div>
+                        </div>
+                        <div class="code-content">
+                            <div class="stats-container">
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="3">0</div>
+                                    <div class="stat-label">Años de Experiencia</div>
+                                </div>
+                                
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="12">0</div>
+                                    <div class="stat-label">Tecnologías Dominadas</div>
+                                </div>
+                                
+                                <div class="stat-item">
+                                    <div class="stat-number" data-target="100">0</div>
+                                    <div class="stat-label">Clientes satisfechos</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span class="scroll-text">Desliza para explorar</span>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">Sobre mí</h2>
+                
+                <div class="about-layout">
+                    <!-- Main Content -->
+                    <div class="about-main">
+                        <div class="about-text">
+                            <p class="about-intro">
+                                Soy <strong>Tudor Constantin</strong>, un desarrollador especializado en 
+                                <strong>WordPress</strong> y <strong>PHP</strong> con pasión por crear 
+                                soluciones web que realmente marquen la diferencia.
+                            </p>
+                            
+                            <p>
+                                Me enfoco en transformar ideas complejas en aplicaciones web robustas, plugins 
+                                personalizados y sitios que destacan por su funcionalidad y experiencia de usuario. 
+                                Cada línea de código que escribo está pensada para ser limpia, escalable y mantenible.
+                            </p>
+                            
+                            <div class="about-highlight">
+                                <i class="fas fa-code" aria-hidden="true"></i>
+                                <span>Creador del plugin <strong>AI Comment Guard</strong> con más de 1,000 descargas</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Tech Stack -->
+                        <div class="tech-stack">
+                            <h3>Stack Tecnológico</h3>
+                            <div class="tech-items">
+                                <div class="tech-item">
+                                    <i class="fab fa-wordpress" aria-hidden="true"></i>
+                                    <span>WordPress</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-php" aria-hidden="true"></i>
+                                    <span>PHP</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-database" aria-hidden="true"></i>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-js-square" aria-hidden="true"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-html5" aria-hidden="true"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                                    <span>CSS3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Mis servicios</h2>
+                <p class="section-subtitle">
+                    Soluciones completas para llevar tu presencia digital al siguiente nivel
+                </p>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-wordpress" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Desarrollo WordPress</h3>
+                        <p class="service-description">
+                            Sitios web personalizados, temas únicos y optimización completa 
+                            para máximo rendimiento y SEO.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Temas responsivos personalizados</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Optimización de velocidad</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>SEO técnico avanzado</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Seguridad y mantenimiento</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card featured">
+                        <div class="service-badge">Más popular</div>
+                        <div class="service-icon">
+                            <i class="fas fa-plug" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Plugins PHP Personalizados</h3>
+                        <p class="service-description">
+                            Extensiones a medida que amplían la funcionalidad de WordPress 
+                            según las necesidades específicas de tu negocio.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Funcionalidades únicas</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Integración con APIs</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Panel de administración</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Documentación completa</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Desarrollo Web Responsivo</h3>
+                        <p class="service-description">
+                            Aplicaciones web modernas que funcionan perfectamente en todos 
+                            los dispositivos y navegadores.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Mobile-first design</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Cross-browser compatibility</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Performance optimization</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Accesibilidad WCAG</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Mantenimiento & Soporte</h3>
+                        <p class="service-description">
+                            Soporte técnico continuo, actualizaciones de seguridad y 
+                            mejoras constantes para tu sitio web.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Actualizaciones regulares</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Backups automáticos</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Monitoreo de seguridad</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Soporte técnico 24/7</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">E-commerce & WooCommerce</h3>
+                        <p class="service-description">
+                            Tiendas online completas con WooCommerce, pasarelas de pago 
+                            personalizadas e integración con sistemas de inventario.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Configuración WooCommerce</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Pasarelas de pago múltiples</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Gestión de inventario</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Reportes y analytics</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="service-title">Optimización & Performance</h3>
+                        <p class="service-description">
+                            Mejora la velocidad y rendimiento de tu sitio web existente 
+                            para una mejor experiencia de usuario y SEO.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Análisis de rendimiento</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Optimización de imágenes</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Cache y CDN setup</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Core Web Vitals</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">Proyectos destacados</h2>
+                <p class="section-subtitle">
+                    Algunos de mis trabajos más representativos
+                </p>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fab fa-wordpress" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://wordpress.org/plugins/ai-comment-guard/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="project-link"
+                                   aria-label="Ver AI Comment Guard en WordPress.org">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">AI Comment Guard</h3>
+                            <p class="project-description">
+                                Plugin de WordPress que utiliza inteligencia artificial para 
+                                filtrar y moderar comentarios spam automáticamente.
+                            </p>
+                            
+                            <div class="project-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">AI</span>
+                                <span class="tag">Security</span>
+                            </div>
+                            
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-download" aria-hidden="true"></i>
+                                    <span>1K+ descargas</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <span>5.0 rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <button class="project-link" aria-label="Ver detalles del proyecto E-commerce">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce personalizado</h3>
+                            <p class="project-description">
+                                Tienda online completa con WooCommerce, pasarela de pagos 
+                                personalizada e integración con sistemas de inventario.
+                            </p>
+                            
+                            <div class="project-tags">
+                                <span class="tag">WooCommerce</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                            </div>
+                            
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-users" aria-hidden="true"></i>
+                                    <span>10K+ usuarios</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-chart-line" aria-hidden="true"></i>
+                                    <span>300% ROI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-newspaper" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <button class="project-link" aria-label="Ver detalles del portal de noticias">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">Portal de noticias</h3>
+                            <p class="project-description">
+                                Sitio web de noticias de alto tráfico con sistema de 
+                                suscripciones, newsletter automático y optimización de rendimiento.
+                            </p>
+                            
+                            <div class="project-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Redis</span>
+                                <span class="tag">CDN</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-eye" aria-hidden="true"></i>
+                                    <span>100K+ views/mes</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-tachometer-alt" aria-hidden="true"></i>
+                                    <span>95 PageSpeed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">¿Listo para trabajar juntos?</h2>
+                <p class="section-subtitle">
+                    Conectemos y discutamos tu próximo proyecto
+                </p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:tudoreusebiu4@gmail.com" 
+                       class="contact-method">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="method-content">
+                            <h3>Correo</h3>
+                            <p>Cuéntame tu proyecto y juntos lo llevaremos al siguiente nivel</p>
+                        </div>
+                        <div class="method-arrow">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/tudor-eusebiu-constantin/" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </div>
+                        <div class="method-content">
+                            <h3>LinkedIn</h3>
+                            <p>Conectemos profesionalmente y discutamos oportunidades</p>
+                        </div>
+                        <div class="method-arrow">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Tudor Constantin. Todos los derechos reservados.</p>
+                    <p>Desarrollado con ❤️ y mucho código</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/tudor-eusebiu-constantin/" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="social-link"
+                       aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/tudor-constantin" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="social-link"
+                       aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://wordpress.org/plugins/ai-comment-guard/" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="social-link"
+                       aria-label="WordPress">
+                        <i class="fab fa-wordpress" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
