@@ -96,6 +96,22 @@ body {
     --border-medium: #475569;
 }
 
+/* ===== FONT OPTIMIZATION ===== */
+/* Font Awesome optimization for better loading performance */
+.fas, .far, .fab {
+    font-display: swap;
+}
+
+/* Ensure icons display properly during font loading */
+.fas::before, 
+.far::before, 
+.fab::before {
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
 /* ===== FIX H1 USER AGENT FONT SIZE ===== */
 h1 {
     font-size: revert-layer;
