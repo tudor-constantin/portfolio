@@ -96,6 +96,11 @@ body {
     --border-medium: #475569;
 }
 
+/* ===== FIX H1 USER AGENT FONT SIZE ===== */
+h1 {
+    font-size: revert-layer;
+}
+
 /* ===== UTILITY CLASSES ===== */
 .sr-only {
     position: absolute;
